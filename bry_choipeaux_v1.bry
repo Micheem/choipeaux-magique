@@ -1,0 +1,14 @@
+from browser import document as doc, html
+from choipeaux_magique_pourlapartie2 import *
+
+
+def b(event):
+    doc["texte_ephemere"].affichage_eleve(poudlard_characters, gang[rep - 1], k, continuer)
+doc["bouton"].bind("click",b)
+
+
+
+eleve = {'Courage': 10, 'Ambition': 10, 'Intelligence': 10, 'Bontée': 10}
+
+
+doc <= html.BUTTON("Ok")
